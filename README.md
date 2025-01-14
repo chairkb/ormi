@@ -1,6 +1,5 @@
 ## ormi
 
-<img src="http://stech.mywire.org/img/dblogo5.png" alt="alt text" width="50%" height="50%">
 
 ormi maps Java POJO into relational databases. ormi is the only true ORM that is able to map all OO concept into a relational database.
 
