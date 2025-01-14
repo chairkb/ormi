@@ -104,7 +104,7 @@ public class Addr extends Clasz {
 				
 ## Quick Start
 
-1. Install Postgres and create a database name 'stormi' using 'postgres' user and 'abc1234' password.
+1. Install Postgres and create a database name 'ormi' using 'postgres' user and 'abc1234' password.
 
 2. Install Java and Maven if you do not have them.
 
@@ -122,10 +122,10 @@ public class Addr extends Clasz {
 	mvn clean compile assembly:single
 ````
 
-6. In the example/target directory, copy stormi.proprties into the target directory
+6. In the example/target directory, copy ormi.proprties into the target directory
 
 ````bash
-	cp ../stormi.properties .
+	cp ../ormi.properties .
 ````
 
 7. Run the example application with
@@ -139,8 +139,8 @@ public class Addr extends Clasz {
 ````bash
 	18Jun2021 22:56:14 INFO Log level is at: DEBG
 	18Jun2021 22:56:14 INFO Working directory: C:\stech\ormi-main\example\target
-	18Jun2021 22:56:14 INFO Found property file at: C:\stech\ormi-main\example\target\stormi.properties
-	18Jun2021 22:56:14 INFO Configuration from: C:\stech\ormi-main\example\target\stormi.properties
+	18Jun2021 22:56:14 INFO Found property file at: C:\stech\ormi-main\example\target\ormi.properties
+	18Jun2021 22:56:14 INFO Configuration from: C:\stech\ormi-main\example\target\ormi.properties
 	18Jun2021 22:56:14 INFO Log file: C:\Users\Admin\AppData\Local\Temp\\App.202106.log
 	18Jun2021 22:56:14 INFO Log on console: true
 	18Jun2021 22:56:14 INFO Log next switch at: 2021-07-01T00:00:00.244+08:00
@@ -150,7 +150,7 @@ public class Addr extends Clasz {
 	18Jun2021 22:56:14 COFG OS version: 10.0
 	18Jun2021 22:56:14 COFG Java classpath: example-1.0-SNAPSHOT-jar-with-dependencies.jar
 	18Jun2021 22:56:14 INFO Total db connection available for threading: 2
-	18Jun2021 22:56:14 COFG Jdbc, connecting with url = jdbc:postgresql://localhost:5432/stormi
+	18Jun2021 22:56:14 COFG Jdbc, connecting with url = jdbc:postgresql://localhost:5432/ormi
 	18Jun2021 22:56:14 COFG Jdbc, connecting with user = postgres
 	18Jun2021 22:56:14 COFG Jdbc, connecting with password = *********
 	18Jun2021 22:56:14 COFG Jdbc, connecting with init conn = 2
@@ -186,12 +186,3 @@ After installing ormi into your maven repository, use the following pom dependen
 ````
 
 To try out ormi, go to the 'example' directory and compile 'Simple.java' and execute it. To compile with IDE (e.g. eclipse or netbeans) you can import the maven project.
-
-Before executing the 'example', create a database (either postgresql or mysql) and configure it's jdbc properties in the file 'stormi.properties' (jdbcUser, jdbcPassword, jdbcUrl). The default configured is (schema: stormi, login: postgres, password: abc1234)
-
-## Contact Us
-
-For any further support, please contact me at stech@gmail.com
-
-
-
